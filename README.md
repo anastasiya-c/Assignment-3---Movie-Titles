@@ -11,3 +11,6 @@ A few issues arose with processing CSV file:
 The creator of the csv file added quotation marks to the titles in such cases, so it was easy to fix the issue by splitting such lines with quotation marks as delimiters
 2. Some movies did not have a release year.
 My way of overcoming the issus was to check how many digits contain each line, and if the number is greater than 4 (all years on the list have 4 digits), then extract the release year. Otherwise, do not add the movie to the tree
+
+The CSV file used can be foud in the folder "ml-latest-small".
+The text output files with lists of movies are in the folder "output files".
